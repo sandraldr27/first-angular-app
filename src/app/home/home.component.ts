@@ -14,7 +14,7 @@ import { HousingService } from '../housing.service';
   template: `
     <section>
       <form>
-        <input type="text" placeholder="Filter by city" #filter>
+        <input type="text" placeholder="Ingrese ciudad para ajustar la búsqueda" #filter>
         <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
       </form>
     </section>

@@ -9,103 +9,123 @@ export class HousingService {
   protected housingLocationList: HousingLocation[] = [
     {
       id: 0,
-      name: 'Acme Fresh Start Housing',
-      city: 'Chicago',
-      state: 'IL',
-      photo: '/assets/bernard-hermant-CLKGGwIBTaY-unsplash.jpg',
-      availableUnits: 4,
-      wifi: true,
-      laundry: true
+      name: 'Chalet Independiente',
+      city: 'Santiago de Compostela',
+      state: 'A Coruña',
+      photo: '/assets/images/house1.jpeg',
+      rooms: 4,
+      Garage: true,
+      bathroom: true
     },
     {
       id: 1,
-      name: 'A113 Transitional Housing',
-      city: 'Santa Monica',
-      state: 'CA',
-      photo: '/assets/brandon-griggs-wR11KBaB86U-unsplash.jpg',
-      availableUnits: 0,
-      wifi: false,
-      laundry: true
+      name: 'Chalet Pareado',
+      city: 'Marbella',
+      state: 'Málaga',
+      photo: '/assets/images/house2.jpg',
+      rooms: 5,
+      Garage: false,
+      bathroom: true
     },
     {
       id: 2,
-      name: 'Warm Beds Housing Support',
-      city: 'Juneau',
-      state: 'AK',
-      photo: '/assets/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg',
-      availableUnits: 1,
-      wifi: false,
-      laundry: false
+      name: 'Chalet Clásico',
+      city: 'Fuengirola',
+      state: 'Málaga',
+      photo: '/assets/images/house3.jpg',
+      rooms: 4,
+      Garage: false,
+      bathroom: false
     },
     {
       id: 3,
-      name: 'Homesteady Housing',
-      city: 'Chicago',
-      state: 'IL',
-      photo: '/assets/ian-macdonald-W8z6aiwfi1E-unsplash.jpg',
-      availableUnits: 1,
-      wifi: true,
-      laundry: false
+      name: 'Chalet Clásico',
+      city: 'San Pedro de Alcántara',
+      state: 'Málaga',
+      photo: '/assets/images/house4.jpg',
+      rooms: 3,
+      Garage: true,
+      bathroom: false
     },
     {
       id: 4,
-      name: 'Happy Homes Group',
-      city: 'Gary',
-      state: 'IN',
-      photo: '/assets/krzysztof-hepner-978RAXoXnH4-unsplash.jpg',
-      availableUnits: 1,
-      wifi: true,
-      laundry: false
+      name: 'Chalet Independiente',
+      city: 'Amoeiro',
+      state: 'Ourense',
+      photo: '/assets/images/house5.jpg',
+      rooms: 4,
+      Garage: true,
+      bathroom: false
     },
     {
       id: 5,
-      name: 'Hopeful Apartment Group',
-      city: 'Oakland',
-      state: 'CA',
-      photo: '/assets/r-architecture-JvQ0Q5IkeMM-unsplash.jpg',
-      availableUnits: 2,
-      wifi: true,
-      laundry: true
+      name: 'Chalet Independiente',
+      city: 'Avilés',
+      state: 'Asturias',
+      photo: '/assets/images/house6.jpg',
+      rooms: 5,
+      Garage: true,
+      bathroom: true
     },
     {
       id: 6,
-      name: 'Seriously Safe Towns',
-      city: 'Oakland',
-      state: 'CA',
-      photo: '/assets/phil-hearing-IYfp2Ixe9nM-unsplash.jpg',
-      availableUnits: 5,
-      wifi: true,
-      laundry: true
+      name: 'Adosado Una Sola Planta',
+      city: 'Mijas Pueblo',
+      state: 'Málaga',
+      photo: '/assets/images/house7.jpg',
+      rooms: 5,
+      Garage: true,
+      bathroom: true
     },
     {
       id: 7,
-      name: 'Hopeful Housing Solutions',
-      city: 'Oakland',
-      state: 'CA',
-      photo: '/assets/r-architecture-GGupkreKwxA-unsplash.jpg',
-      availableUnits: 2,
-      wifi: true,
-      laundry: true
+      name: 'Chalet de una Planta',
+      city: 'Redondela',
+      state: 'Vigo',
+      photo: '/assets/images/house8.jpg',
+      rooms: 4,
+      Garage: true,
+      bathroom: true
     },
     {
       id: 8,
-      name: 'Seriously Safe Towns',
-      city: 'Oakland',
-      state: 'CA',
-      photo: '/assets/saru-robert-9rP3mxf8qWI-unsplash.jpg',
-      availableUnits: 10,
-      wifi: false,
-      laundry: false
+      name: 'Chalet Moderno',
+      city: 'La Rinconada',
+      state: 'Sevilla',
+      photo: '/assets/images/house9.jpg',
+      rooms: 3,
+      Garage: false,
+      bathroom: false
     },
     {
       id: 9,
-      name: 'Capital Safe Towns',
-      city: 'Portland',
-      state: 'OR',
-      photo: '/assets/webaliser-_TPTXZd9mOo-unsplash.jpg',
-      availableUnits: 6,
-      wifi: true,
-      laundry: true
+      name: 'Chalet Pareado',
+      city: 'Estepona',
+      state: 'Málaga',
+      photo: '/assets/images/house10.jpg',
+      rooms: 4,
+      Garage: true,
+      bathroom: true
+    },
+    {
+      id: 10,
+      name: 'Chalet Pareado',
+      city: 'Benalmádena',
+      state: 'Málaga',
+      photo: '/assets/images/house11.jpg',
+      rooms: 3,
+      Garage: true,
+      bathroom: true
+    },
+    {
+      id: 11,
+      name: 'Chalet Independiente',
+      city: 'O Portiño',
+      state: 'A Coruña',
+      photo: '/assets/images/house12.jpg',
+      rooms: 5,
+      Garage: true,
+      bathroom: true
     }
   ];
 

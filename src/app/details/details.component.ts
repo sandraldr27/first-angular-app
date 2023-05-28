@@ -30,7 +30,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
       </section>
       <section class="listing-apply">
         <h2 class="section-heading">Contactar para más información</h2>
-        <form [formGroup]="applyForm" (submit)="submitApplication()" action="#">
+        <form [formGroup]="applyForm" (submit)="submitApplication()">
           <label for="first-name">Nombre(s)</label>
           <input id="first-name" type="text" formControlName="firstName">
 

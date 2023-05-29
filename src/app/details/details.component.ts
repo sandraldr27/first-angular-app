@@ -23,8 +23,9 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
       <section class="listing-features">
         <h2 class="section-heading">Más información sobre la vivienda</h2>
         <ul>
+          <li>m2: {{housingLocation?.meters}}</li>
           <li>Habitaciones: {{housingLocation?.rooms}}</li>
-          <li>Garage o parking propio: {{housingLocation?.Garage}}</li>
+          <li>Garage: {{housingLocation?.garage}}</li>
           <li>Cuartos de Baño: {{housingLocation?.bathroom}}</li>
         </ul>
       </section>

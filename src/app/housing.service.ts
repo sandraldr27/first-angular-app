@@ -13,9 +13,10 @@ export class HousingService {
       city: 'Santiago de Compostela',
       state: 'A Coruña',
       photo: '/assets/images/house1.jpeg',
+      meters: 130,
       rooms: 4,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 1,
@@ -23,9 +24,10 @@ export class HousingService {
       city: 'Marbella',
       state: 'Málaga',
       photo: '/assets/images/house2.jpg',
+      meters: 120,
       rooms: 5,
-      Garage: false,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 2,
@@ -33,9 +35,10 @@ export class HousingService {
       city: 'Fuengirola',
       state: 'Málaga',
       photo: '/assets/images/house3.jpg',
+      meters: 140,
       rooms: 4,
-      Garage: false,
-      bathroom: false
+      garage: 'Sí',
+      bathroom: 3
     },
     {
       id: 3,
@@ -43,9 +46,10 @@ export class HousingService {
       city: 'San Pedro de Alcántara',
       state: 'Málaga',
       photo: '/assets/images/house4.jpg',
+      meters: 120,
       rooms: 3,
-      Garage: true,
-      bathroom: false
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 4,
@@ -53,9 +57,10 @@ export class HousingService {
       city: 'Amoeiro',
       state: 'Ourense',
       photo: '/assets/images/house5.jpg',
+      meters: 130,
       rooms: 4,
-      Garage: true,
-      bathroom: false
+      garage: 'Sí',
+      bathroom: 3
     },
     {
       id: 5,
@@ -63,9 +68,10 @@ export class HousingService {
       city: 'Avilés',
       state: 'Asturias',
       photo: '/assets/images/house6.jpg',
+      meters: 145,
       rooms: 5,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 4
     },
     {
       id: 6,
@@ -73,9 +79,10 @@ export class HousingService {
       city: 'Mijas Pueblo',
       state: 'Málaga',
       photo: '/assets/images/house7.jpg',
-      rooms: 5,
-      Garage: true,
-      bathroom: true
+      meters: 78,
+      rooms: 3,
+      garage: 'No',
+      bathroom: 1
     },
     {
       id: 7,
@@ -83,9 +90,10 @@ export class HousingService {
       city: 'Redondela',
       state: 'Vigo',
       photo: '/assets/images/house8.jpg',
+      meters: 100,
       rooms: 4,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 8,
@@ -93,9 +101,10 @@ export class HousingService {
       city: 'La Rinconada',
       state: 'Sevilla',
       photo: '/assets/images/house9.jpg',
+      meters: 138,
       rooms: 3,
-      Garage: false,
-      bathroom: false
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 9,
@@ -103,9 +112,10 @@ export class HousingService {
       city: 'Estepona',
       state: 'Málaga',
       photo: '/assets/images/house10.jpg',
+      meters: 132,
       rooms: 4,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 3
     },
     {
       id: 10,
@@ -113,9 +123,10 @@ export class HousingService {
       city: 'Benalmádena',
       state: 'Málaga',
       photo: '/assets/images/house11.jpg',
+      meters: 118,
       rooms: 3,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 2
     },
     {
       id: 11,
@@ -123,9 +134,10 @@ export class HousingService {
       city: 'O Portiño',
       state: 'A Coruña',
       photo: '/assets/images/house12.jpg',
+      meters: 143,
       rooms: 5,
-      Garage: true,
-      bathroom: true
+      garage: 'Sí',
+      bathroom: 4
     }
   ];
 

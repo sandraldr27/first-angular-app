@@ -4,7 +4,8 @@ export interface HousingLocation {
   city: string;
   state: string;
   photo: string;
+  meters: number,
   rooms: number;
-  Garage: boolean;
-  bathroom: boolean;
+  garage: string;
+  bathroom: number;
 }

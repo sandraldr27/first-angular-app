@@ -11,10 +11,10 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     RouterOutlet,
   ],
   template: `
-    <main>
+    <main style="background-color: #f9f1fe;">
       <a [routerLink]="['/']">
-        <header class="brand-name">
-          <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
+        <header class="brand-name" style="margin-top: 50px;" style="background-color; #F9F1FE;">
+          <img class="brand-logo" src="/assets/images/logo.png" alt="logo" aria-hidden="true" width="190" height="190" style="margin-top: -10px;">
         </header>
       </a>
       <section class="content">

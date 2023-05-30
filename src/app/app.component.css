@@ -53,3 +53,8 @@ footer p {
 .info-footer {
   text-align: right;
 }
+
+.mail-sender
+{
+  font-size: 14px;
+}

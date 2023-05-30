@@ -35,7 +35,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
                   <div class="info-footer">
                       <p><img src="/assets/footer/ubication.png" alt="ubication icon" width="20px" height="20px"> Avenida del Pool Frontend s/n. CP 29651, Mijas - Málaga</p>
-                      <p><img src="/assets/footer/mail.png" alt="mail icon" width="20px" height="20px"> sandraldr@realestatefrontend.com</p>
+                      <a class="mail-sender" href="mailto:sandraldr@realestatefrontend.com"><img src="/assets/footer/mail.png" alt="mail icon" width="20px" height="20px"> sandraldr@realestatefrontend.com</a>
                       <p><img src="/assets/footer/phone.png" alt="phone icon" width="20px" height="20px"> +34 123456789</p>
                       <p>&copy; <b>2023 SANDRALDR Real Estate.</b> Todos los derechos reservados.</p>
                   </div>

@@ -24,7 +24,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url('/assets/images/pin-location.png') no-repeat center center;
+  background: url('/assets/icons/pin-location.png') no-repeat center center;
   background-size: contain;
 }
 

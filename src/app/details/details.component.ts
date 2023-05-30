@@ -23,10 +23,10 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
       <section class="listing-features">
         <h2 class="section-heading">Detalles Generales de la vivienda:</h2>
         <ul>
-          <li><img src="/assets/images/m2.png" alt="m2 icon" width="18px" height="18px"> m2: {{housingLocation?.meters}}</li>
-          <li><img src="/assets/images/room.png" alt="room icon" width="18px" height="18px"> Habitaciones: {{housingLocation?.rooms}}</li>
-          <li><img src="/assets/images/garage.png" alt="garage icon" width="18px" height="20px"> Garage: {{housingLocation?.garage}}</li>
-          <li><img src="/assets/images/bathroom.png" alt="bathroom icon" width="18px" height="20px"> Cuartos de Baño: {{housingLocation?.bathroom}}</li>
+          <li><img src="/assets/icons/m2.png" alt="m2 icon" width="18px" height="18px"> m2: {{housingLocation?.meters}}</li>
+          <li><img src="/assets/icons/room.png" alt="room icon" width="18px" height="18px"> Habitaciones: {{housingLocation?.rooms}}</li>
+          <li><img src="/assets/icons/garage.png" alt="garage icon" width="18px" height="20px"> Garage: {{housingLocation?.garage}}</li>
+          <li><img src="/assets/icons/bathroom.png" alt="bathroom icon" width="18px" height="20px"> Cuartos de Baño: {{housingLocation?.bathroom}}</li>
         </ul>
       </section>
       <section class="listing-apply">

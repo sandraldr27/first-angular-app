@@ -1,16 +1,22 @@
 :host {
   --content-padding: 10px;
 }
+
+.content {
+  padding: var(--content-padding);
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
+  max-height: 310px;
+}
+
 header {
-  /*display: block;  */
   height: 250px;
   padding: var();
   box-shadow: 0px 5px 25px var();
   background-color: rgb(252, 251, 252);
-}
-
-.content {
-  padding: var(--content-padding);
 }
 
 footer {
@@ -27,4 +33,23 @@ footer p {
   margin-bottom: 10px;
   margin-right: 10px;
   font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.info-footer {
+  text-align: right;
 }

@@ -12,34 +12,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   ],
 
   template: `
-
-      <style>
-          .brand-logo {
-              width: 100%;
-              height: auto;
-              max-height: 310px;
-          }
-
-          .footer {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-          }
-
-          .social-icons {
-              display: flex;
-              align-items: center;
-          }
-
-          .social-icons a {
-              margin-right: 10px; /* Ajusta el valor según el espacio deseado */
-          }
-
-          .info-footer {
-              text-align: right;
-          }
-      </style>
-
       <main style="background-color: #f9f1fe">
           <a [routerLink]="['/']">
             <header class="brand-name" style="margin-top: 50px" background-color= "#F9F1FE" width= "100%" overflow= "hidden">
@@ -47,9 +19,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
             </header>
           </a>
 
-      <section class="content">
-          <router-outlet></router-outlet>
-      </section>
+          <section class="content">
+              <router-outlet></router-outlet>
+          </section>
 
           <div>
               <footer class="footer">
@@ -69,7 +41,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
                   </div>
               </footer>
           </div>
-
       </main>
   `,
   styleUrls: ['./app.component.css'],

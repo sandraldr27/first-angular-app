@@ -7,10 +7,10 @@ body {
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 :root {
-  --primary-color: #851ECD;
-  --secondary-color: #7211b3;
+  --primary-color: rgb(144, 31, 250);
+  --secondary-color: rgb(144, 31, 250);
   --accent-color: #E9D5FC;
-  --shadow-color: #5b0798;
+  --shadow-color: rgb(144, 31, 250);
 }
 
 button.primary {

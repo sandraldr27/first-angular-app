@@ -2,11 +2,29 @@
   --content-padding: 10px;
 }
 header {
-  display: block;
-  height: 180px;
-  padding: var(--content-padding);
-  box-shadow: 0px 5px 25px var(--shadow-color);
+  /*display: block;  */
+  height: 250px;
+  padding: var();
+  box-shadow: 0px 5px 25px var();
+  background-color: rgb(252, 251, 252);
 }
+
 .content {
   padding: var(--content-padding);
+}
+
+footer {
+  display: block;
+  height: 150px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+  background-color: rgb(184, 113, 250);
+}
+
+footer p {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 14px;
 }

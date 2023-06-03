@@ -1,5 +1,7 @@
 # FirstAngularApp
 
+https://github.com/sandraldr27/first-angular-app/assets/116546588/7c521200-c797-4428-b5e5-044f2ff47299
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
 ## Development server

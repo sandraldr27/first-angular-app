@@ -3,6 +3,7 @@
 <h2>1. Project Description</h2>
 <ul>
 <li>Development of a first application in Angular 16.0.3, within the Accenture internship program.</li>
+<li>We have worked with a JSON server so it will be necessary to open it in addition to deploying the project with ng serve</li>
 <li>The application is a simulation of a real estate business, in which there is a catalog of properties available for sale and access to each of them to expand the information. A search filter by city is also added.</li>
 </ul>
 
